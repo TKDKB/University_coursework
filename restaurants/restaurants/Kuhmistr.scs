@@ -18,4 +18,4 @@ Kuhmistr <- concept_restaurant;
    (* <- concept_city_district;;*);
 => nrel_address:
    [г. Минск, ул. Карла Маркса, 40]
-   (* <- concept_address;;*);
+   (* <- concept_address;;*);;
