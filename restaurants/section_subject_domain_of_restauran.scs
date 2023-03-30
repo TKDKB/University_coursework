@@ -15,23 +15,32 @@ section_subject_domain_of_restaurant = [*
       [Subject domain of restaurant]
       (* <- lang_en;; *);
 	<- subject_domain;
-	-> rrel_not_maximum_studied_object_class:
+	-> rrel_maximum_studied_object_class:
             concept_restaurant;
+	-> rrel_not_maximum_studied_object_class:
+            concept_adress;
+	    concept_phone_number;
+	    concept_close_time;
+	    concept_open_time;
+	    concept_city_district;;
 	-> rrel_explored_relation:
             nrel_close_time;
             nrel_open_time;
             nrel_phone_number;
-		nrel_address;
+	    nrel_address;
             nrel_city_district;;
 *];;
 
 section_subject_domain_of_restaurant
 -> rrel_key_sc_element:
-		concept_restaurant;
-		concept_close_time;
-		concept_open_time;
+	    concept_restaurant;
+	    concept_phone_number;
+	    concept_close_time;
+	    concept_open_time;
+	    concept_address;
+	    concept_city_district;
             nrel_open_time;
-		nrel_address;
+	    nrel_address;
             nrel_close_time;
             nrel_phone_number;
             nrel_city_district;;
