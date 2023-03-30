@@ -15,4 +15,4 @@ Astoria_Riverside <- concept_restaurant;
    (* <- concept_phone_number;;*);
 => nrel_city_district:
    [centralny_city_district_minsk]
-   (* <- concept_city_district;;*);
+   (* <- concept_city_district;;*);;
