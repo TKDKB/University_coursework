@@ -5,6 +5,8 @@ concept_open_time
 	(* <- lang_ru;; *);
 	[open time]
 	(* <- lang_en;; *);
+=>nrel_system_identifier:
+	[concept_open_time];;
 <- rrel_key_sc_element:
 	...
 	(*
