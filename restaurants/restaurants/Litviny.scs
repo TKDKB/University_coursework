@@ -1,0 +1,18 @@
+Litviny <- concept_restaurant;
+=> nrel_main_idtf:
+   [Litviny]
+   (* <- lang_en;; <- name_en;;*);
+   [Литвины]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_open_time:
+    [11:00]
+    (* <- concept_open_time;;*);
+=>nrel_close_time:
+    [23:00]
+    (* <- concept_close_time;;*);
+=> nrel_phone_number:
+   [8 044 557 11 11]
+   (* <- concept_phone_number;;*);
+=> nrel_city_district:
+   [centralny_city_district_minsk]
+   (* <- concept_city_district;;*);

@@ -1,0 +1,18 @@
+Astoria_central <- concept_restaurant;
+=> nrel_main_idtf:
+   [Astoria central]
+   (* <- lang_en;; <- name_en;;*);
+   [Астория централ]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_open_time:
+    [12:00]
+    (* <- concept_open_time;;*);
+=>nrel_close_time:
+    [23:00]
+    (* <- concept_close_time;;*);
+=> nrel_phone_number:
+   [8 029 178 44 45]
+   (* <- concept_phone_number;;*);
+=> nrel_city_district:
+   [centralny_city_district_minsk]
+   (* <- concept_city_district;;*);

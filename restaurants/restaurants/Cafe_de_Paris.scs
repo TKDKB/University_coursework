@@ -1,0 +1,18 @@
+Cafe_de_Paris <- concept_restaurant;
+=> nrel_main_idtf:
+   [Cafe de Paris]
+   (* <- lang_en;; <- name_en;;*);
+   [Кафе де пари]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_open_time:
+    [12:00]
+    (* <- concept_open_time;;*);
+=>nrel_close_time:
+    [00:00]
+    (* <- concept_close_time;;*);
+=> nrel_phone_number:
+   [8 029 129 11 11]
+   (* <- concept_phone_number;;*);
+=> nrel_city_district:
+   [leninsky_city_district_minsk]
+   (* <- concept_city_district;;*);

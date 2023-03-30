@@ -1,0 +1,18 @@
+Astoria_Riverside <- concept_restaurant;
+=> nrel_main_idtf:
+   [Astoria Riverside]
+   (* <- lang_en;; <- name_en;;*);
+   [Астория Риверсайд]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_open_time:
+    [12:00]
+    (* <- concept_open_time;;*);
+=>nrel_close_time:
+    [23:00]
+    (* <- concept_close_time;;*);
+=> nrel_phone_number:
+   [8 017 392 79 39]
+   (* <- concept_phone_number;;*);
+=> nrel_city_district:
+   [centralny_city_district_minsk]
+   (* <- concept_city_district;;*);

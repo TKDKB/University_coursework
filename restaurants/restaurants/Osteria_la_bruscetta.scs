@@ -1,0 +1,18 @@
+Osteria_la_bruscetta <- concept_restaurant;
+=> nrel_main_idtf:
+   [Osteria la bruscetta]
+   (* <- lang_en;; <- name_en;;*);
+   [Остерия ла брускетта]
+   (* <- lang_ru;; <- name_ru;; <- name;;*);
+=>nrel_open_time:
+    [12:00]
+    (* <- concept_open_time;;*);
+=>nrel_close_time:
+    [00:00]
+    (* <- concept_close_time;;*);
+=> nrel_phone_number:
+   [8 044 556 63 51]
+   (* <- concept_phone_number;;*);
+=> nrel_city_district:
+   [centralny_city_district_minsk]
+   (* <- concept_city_district;;*);
