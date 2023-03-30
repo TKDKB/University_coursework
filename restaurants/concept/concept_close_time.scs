@@ -5,6 +5,8 @@ concept_close_time
 	(* <- lang_ru;; *);
 	[close time]
 	(* <- lang_en;; *);
+=>nrel_system_idtf:
+	[concept_close_time];;
 <- rrel_key_sc_element:
 	...
 	(*
@@ -13,8 +15,6 @@ concept_close_time
 		(* <- lang_ru;; *);
 		[Def. (close time]
 		(* <- lang_en;; *);;
-	=>nrel_system_idtf:
-		[concept_close_time];;
 	<- definition;;
 	<= nrel_sc_text_translation:
 		...
