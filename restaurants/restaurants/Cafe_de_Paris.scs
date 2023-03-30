@@ -15,4 +15,4 @@ Cafe_de_Paris <- concept_restaurant;
    (* <- concept_phone_number;;*);
 => nrel_city_district:
    [leninsky_city_district_minsk]
-   (* <- concept_city_district;;*);
+   (* <- concept_city_district;;*);;
