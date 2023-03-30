@@ -13,6 +13,8 @@ concept_close_time
 		(* <- lang_ru;; *);
 		[Def. (close time]
 		(* <- lang_en;; *);;
+	=>nrel_system_idtf:
+		[concept_close_time];;
 	<- definition;;
 	<= nrel_sc_text_translation:
 		...
