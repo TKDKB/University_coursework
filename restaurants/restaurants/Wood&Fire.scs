@@ -1,4 +1,4 @@
-Wood&Fire <- concept_restaurant;
+WoodFire <- concept_restaurant;
 => nrel_main_idtf:
    [Wood&Fire]
    (* <- lang_en;; <- name_en;;*);
@@ -15,4 +15,4 @@ Wood&Fire <- concept_restaurant;
    (* <- concept_phone_number;;*);
 => nrel_city_district:
    [pervomaysky_city_district_minsk]
-   (* <- concept_city_district;;*);
+   (* <- concept_city_district;;*);;
